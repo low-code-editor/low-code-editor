@@ -101,7 +101,7 @@ npm install low-code-editor
 
 ## 协议标准
 
-> \* 为了《按协议编写的文档》保存至服务器，我们使用了标准的 [JSON](https://www.json.org/json-zh.html)，所以 prop value 不支持节点中有 Function、Date 等对象或表达式。可通过加入 export default 让 LCE 解析器认识这些对象或表达式。
+> \* 为了《按协议编写的文档》保存至服务器，我们使用了标准的 [JSON](https://www.json.org/json-zh.html)，所以 prop value 不支持节点中有 Function、Date 等对象或表达式。
 
 #### version
 类型：`String`<br>
