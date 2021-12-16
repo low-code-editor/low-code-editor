@@ -4,21 +4,21 @@
 - [api-panel-plugin](#)
 
 # 目录 Menu
-- [安装 Installation](#)
-- [介绍 Introduction](#)
-  - [功能](#)
-- [用法 Usage](#)
-  - [Webpack](#)
-  - [CDN](#)
-- [组件 Components](#)
-  - [lce-material](#)
-  - [lce-tree](#)
-  - [lce-render](#)
-  - [lce-setter](#)
-- [协议 Protocol](#)
-  - [简单的例子](#)
-  - [协议标准](#)
-- [贡献指南 Contribution](#)
+- [安装 Installation](#安装-installation)
+- [介绍 Introduction](#介绍-introduction)
+  - [功能](#功能)
+- [用法 Usage](#用法-usage)
+  - [Webpack](#webpack)
+  - [CDN](#cdn)
+- [组件 Components](#组件-components)
+  - [lce-material](#lce-material)
+  - [lce-tree](#lce-tree)
+  - [lce-render](#lce-render)
+  - [lce-setter](#lce-setter)
+- [协议 Protocol](#协议-protocol)
+  - [简单的例子](#简单的例子)
+  - [协议标准](#协议标准)
+- [贡献指南 Contribution](#贡献指南-contribution)
 
 # 安装 Installation
 ```bash
@@ -101,7 +101,7 @@ npm install low-code-editor
 
 ## 协议标准
 
-> \* 为了《按协议编写的文档》保存至服务器，我们使用了标准的 [JSON](https://www.json.org/json-zh.html)，所以 prop value 不支持节点中有 Function、Date 等对象或表达式。
+> 为了《按协议编写的文档》保存至服务器，我们使用了标准的 [JSON](https://www.json.org/json-zh.html)，所以 prop value 不支持节点中有 Function、Date 等对象或表达式。
 
 #### version
 类型：`String`<br>
@@ -451,5 +451,9 @@ v-for（缩写 $）
 类型：`String`<br>
 详细：页面样式
 
+# 贡献指南 Contribution
+首先我们一起阅读 [认识 Git Flow](https://github.com/low-code-editor/low-code-editor/blob/main/.github/understanding-git-flow.md) 掌握 Git flow 的工作方式和原因。
 
-Vue2 与 Vue 3 注意事项，这个与生成代码有关
+开始修改代码前请务必先阅读 [贡献指南](https://github.com/low-code-editor/low-code-editor/blob/main/.github/contributing-guide.md)。
+
+团队成员们具有各种技能，个性和经验。当您和项目组成员合作时，我们鼓励您遵循 [行为准则](https://github.com/low-code-editor/low-code-editor/blob/main/.github/code-of-conduct.md)，这有助于指导我们的互动，并努力使项目组成为一个积极，成功和不断发展的团队。
