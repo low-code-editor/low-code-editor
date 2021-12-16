@@ -18,7 +18,7 @@
 - [协议 Protocol](#)
   - [简单的例子](#)
   - [协议标准](#)
-- [贡献指南 Contribution](#)
+- [贡献指南 Contribution](#贡献指南-contribution)
 
 # 安装 Installation
 ```bash
@@ -451,5 +451,10 @@ v-for（缩写 $）
 类型：`String`<br>
 详细：页面样式
 
+# 贡献指南 Contribution
+首先我们一起阅读 [认识 Git Flow](https://github.com/vuejs/vue/blob/main/.github/understanding-git-flow.md) 掌握 Git flow 的工作方式和原因。
 
-Vue2 与 Vue 3 注意事项，这个与生成代码有关
+开始修改代码前请务必先阅读 [贡献指南](https://github.com/vuejs/vue/blob/main/.github/contributing-guide.md)。
+
+团队成员们具有各种技能，个性和经验。当您和项目组成员合作时，我们鼓励您遵循 [行为准则](https://github.com/vuejs/vue/blob/main/.github/code-of-conduct.md)，这有助于指导我们的互动，并努力使项目组成为一个积极，成功和不断发展的团队。
+
